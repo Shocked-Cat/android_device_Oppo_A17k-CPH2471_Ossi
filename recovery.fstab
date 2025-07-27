@@ -1,3 +1,9 @@
+#System Partitions (erofs)
+system         /system         erofs   ro    wait,slotselect,logical
+vendor         /vendor         erofs    ro    wait,slotselect,logical
+product        /product        erofs    ro    wait,slotselect,logical
+odm            /odm            erofs    ro    wait,slotselect,logical
+
 #System Partitions (ext4)
 system         /system         ext4    ro    wait,slotselect,logical
 vendor         /vendor         ext4    ro    wait,slotselect,logical
